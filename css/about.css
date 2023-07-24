@@ -4,6 +4,10 @@
     src: url('../fonts/aqua.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Reset default styles */
 * {
     margin: 0;
