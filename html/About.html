@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/about.css">
+    <title>About</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav--left"><a href="#" class="logo">AutoGO</a></div>
+            <div class="nav--right">
+                <div class="about"><a href="#">About</a></div>
+                <div class="contact"><a href="#">Contact</a></div>
+            </div>
+            <!-- hamburger -->
+            <div id="menuToggle">
+                        <!--
+                        A fake / hidden checkbox is used as click reciever,
+                        so you can use the :checked selector on it.
+                        -->
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="main">
+            <div class="main--one">
+                <h1>About Us</h1>
+                <p>AutoGo: Renr,Ride, Repeat<br>It's that easy</p>
+                <div class="arrow">
+                    <a href="#main-two">
+                        <img class="arrow-icon" src="../images/down arrow.svg" alt="down">
+                    </a>
+                </div>
+            </div>
+            <div id="main-two" class="main--two">
+                <h3>What we do</h3>
+                <h1>Providing the perfect ride for every occasion</h1>
+                <p>"At AutoGo, we provide a wide range of vehicles for rent, from compact cars to spacious SUVs. Our easy-to-use platform and exceptional customer service make renting a vehicle a breeze.
+                <br>    Whether you need a ride for a weekend getaway or a long-term rental, AutoGo has got you covered."</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
