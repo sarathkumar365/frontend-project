@@ -286,3 +286,9 @@ transition: width 0.3s ease; /* Animation for the underline width */
 
     padding: 1em 2em;
 }
+
+.exc {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}

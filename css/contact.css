@@ -1,0 +1,5 @@
+/* Custom font */
+@font-face {
+    font-family: font--primary;
+    src: url('../fonts/aqua.ttf');
+}
