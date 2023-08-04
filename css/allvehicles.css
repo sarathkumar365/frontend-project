@@ -446,30 +446,6 @@ li a:hover {
   }
 }
 
-/* @media (max-width: 400px) {
-  .nav--right {
-      display: flex;
-      flex-direction: row;
-  }
-  .about a {
-      font-size: .6rem;
-  }
-  .contact a {
-      font-size: .6rem;
-  }
-  .cards {
-      width: 100%;
-      padding: 1.5em 1em;
-      display: grid;
-      gap: 10px;
-      grid-template-columns: 1fr 1fr 1fr;
-  }
-  .card--1 {
-      width: 100%;
-  }
-} */
-
-
 
 /* FOOTER */
 
