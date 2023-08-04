@@ -68,7 +68,7 @@ transition: width 0.3s ease; /* Animation for the underline width */
 
 .nav--right a:hover::after,
 .nav--right a:visited::after {
-  width: 100%; /* Expand the underline to the full width of the link on hover and for visited links */
+  width: 100%; /* Expand the underline to the full width of the link on hover  */
 }
 
 /* Responsive Styles */
@@ -113,9 +113,6 @@ transition: width 0.3s ease; /* Animation for the underline width */
     z-index: 2; /* and place it over the hamburger */
 }
 
-/*
- * Just a quick hamburger
- */
 #menuToggle span {
     display: block;
     width: 30px;
@@ -157,9 +154,6 @@ transition: width 0.3s ease; /* Animation for the underline width */
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
@@ -187,9 +181,6 @@ transition: width 0.3s ease; /* Animation for the underline width */
     font-size: .9em;
 }
 
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:not(:checked) ~ ul {
     display: none;
 }
