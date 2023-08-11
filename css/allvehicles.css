@@ -63,8 +63,11 @@ left: 0;
 transition: width 0.3s ease; /* Animation for the underline width */
 }
 
-.nav--right a:hover::after,
-.nav--right a:visited::after {
+.nav--right a:hover {
+  color: #b72222;
+  }
+
+.nav--right a:hover::after{
 width: 100%; /* Expand the underline to the full width of the link on hover and for visited links */
 }
 

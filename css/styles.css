@@ -107,9 +107,13 @@ left: 0;
 transition: width 0.3s ease; /* Animation for the underline width */
 }
 
-.nav--right a:hover::after,
-.nav--right a:visited::after {
-width: 100%; /* Expand the underline to the full width of the link on hover and for visited links */
+.nav--right a:hover {
+color: #b72222;
+}
+
+.nav--right a:hover::after
+{
+  width: 100%; /* Expand the underline to the full width of the link on hover and for visited links */
 }
 
 /* Responsive Styles */
@@ -414,6 +418,7 @@ width: 100%; /* Expand the underline to the full width of the link on hover and 
   font-family: font--primary;
   color: #fff;
   font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .footer li  {
@@ -424,12 +429,33 @@ width: 100%; /* Expand the underline to the full width of the link on hover and 
 li a {
   text-decoration: none;
   color: #fff;
-  font-size: .8rem;
+  font-size: 1.225rem;
   letter-spacing: .9px;
   cursor: pointer;
   transition: color .4s ease-in;
 }
 
 li a:hover {
-  color: #009879;
+  color: tomato;
+}
+
+
+.fas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-container img {
+  width: 100%;
+}
+
+.icons-container img:not(:nth-child(2)) {
+  width: 60%;
+}
+
+.icons-container .icons i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
